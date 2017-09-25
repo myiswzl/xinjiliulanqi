@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="css/jifengshangcheng1.css">
+         <script src="js/jquery-1.11.1.js"></script>
+         <script>
+         $( function(){
+         	var timer;
+         	var num=0;
+         	function go(){
+         		clearInterval(timer);
+         		timer=setInterval(function(){
+         
+                  num++;
+                  if(num>4){num=1;}
+                  /*动画滑动*/
+                 $('.six ul').animate({'left':-747*num+'px'},500);
+                 /*$('.six ul').css('left',-747*num+'px');*/	
+                  
+         	},1000)
+
+         	}
+         	go();
+         	/*鼠标放入事件*/
+         	$('.six').hover(function() {
+         		clearInterval(timer);
+         	}, function() {
+         		go();
+         	});
+         	/*点击换图*/
+           $('#left').click(function(event) {
+           	   num++;
+           	   if(num>4){num=4};
+                 $('.six ul').animate({'left':-747*num+'px'},500);
+           });
+
+          $('#right').click(function(event) {
+           	   num--;
+           	   if(num<0){num=0};
+                 $('.six ul').animate({'left':-747*num+'px'},500);
+           });         
+      })
+         	
+         </script>
+
+    </head>
+
+    <body>
+    <div class="one">
+    	<div class="two">
+    	    <h1><a href="index.html"><img src="images/alogo2.png" alt="" width="100%"></a></h1>
+    		<ul>
+
+    			<li class="yi"><a class= "yia" href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/qianxun/jifenshangcheng1.html">兑换特权</a></li>
+    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/qianxun/wodejifen.html">我的积分</a></li>
+    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/qianxun/jifenguize.html">积分规则</a></li>
+    		</ul>
+    </div>
+    </div>
+
+    <div class="there">
+    	<div class="four">
+    		<div class="five">
+    		<a href="">登录签到</a>
+    		<p>赚积分换特权<br>连续签到<span>3</span>天还能抽大奖！</p>
+    		</div>
+    		<div class="six">
+    		<span id="left"></span>
+    		<span id="right"></span>
+    			<ul>
+    				<li><img src="images/banner01.png" alt=""></li>
+    				<li><img src="images/banner02.png" alt=""></li>
+    				<li><img src="images/banner03.jpg" alt=""></li>
+    				<li><img src="images/banner04.jpg" alt=""></li>
+    				<li><img src="images/banner01.png" alt=""></li>
+    			</ul>
+    		</div>
+    	</div>
+    	<div class="seven">
+    		<div class="seven1">
+    			<a href="#">了解更多</a>
+    		</div>
+    		<div class="seven2">
+    			<h3>PPTV聚力会员激活码</h3>
+    			<img src="images/pptv_bg.png" alt="">
+    		</div>
+    		<div class="seven3">
+    			<ul>
+    				<li><img src="images/pptv7.png" alt=""><p><span>500</span>积分</p></li>
+    				<li><img src="images/pptvm.png" alt=""><p><span>1500</span>积分</p></li>
+    			</ul>
+    		</div>
+    	</div>
+    	<div class="eight">
+    		<div class="eight1">
+    			<a href="#">了解更多</a>
+    		</div>
+    		<div class="eight2">
+    			<h3>爱奇艺VIP激活码</h3>
+    			<img src="images/iqy_bg.png" alt="">
+    		</div>
+    		<div class="eight3">
+    			<ul>
+    				<li><img src="images/iqyday.png" alt=""><p><span>500</span>积分</p></li>
+    				<li><img src="images/iqymonth.png" alt=""><p><span>10000</span>积分</p></li>
+    			</ul>
+    		</div>
+    	</div>
+    	    	<div class="nine">
+    		<div class="nine1">
+    			<a href="#">了解更多</a>
+    		</div>
+    		<div class="nine2">
+    			<h3>百度云会员激活码</h3>
+    			<img src="images/bdy_bg.png" alt="">
+    		</div>
+    		<div class="nine3">
+    			<ul>
+    				<li><img src="images/bdyone.png" alt=""><p><span>4000</span>积分</p></li>
+    			</ul>
+    		</div>
+    	</div>
+    	<div class="ten">
+    		<div class="ten1">
+    			<a href="#">了解更多</a>
+    		</div>
+    		<div class="ten2">
+    			<h3>百度文库VIP激活码</h3>
+    			<img src="images/txt_bg.png" alt="">
+    		</div>
+    		<div class="ten3">
+    			<ul>
+    				<li><img src="images/txt_day.png" alt=""><p><span>800</span>积分</p></li>
+    				<li><img src="images/txt_month.png" alt=""><p><span>4000</span>积分</p></li>
+    			</ul>
+    		</div>
+    	</div>
+
+    </div>
+    </body>
+
+
+
+</html>

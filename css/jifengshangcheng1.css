@@ -1,0 +1,298 @@
+/*
+* @Author: Shinelon
+* @Date:   2017-04-19 09:15:16
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2017-09-23 06:13:55
+*/
+*{ margin: 0;
+   padding: 0;
+   list-style: none;}
+.one{ height: 70px;
+	  width: 100%;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);	  
+      margin-bottom: 10px;} 
+.two{ width: 945px;
+      height: 70px;
+      margin: 0 auto;
+      }
+.two ul{ height: 70px;
+         width: 600px;
+         float: left;}
+.two h1{  display: inline-block; 
+	    width: 280px;
+	    height: 50px;
+	    float: left;
+      /* background: url(../images/alogo2.png) no-repeat; */
+}
+.two ul li{ width: 120px;
+            height: 68px;
+            float: left;
+            text-align: center;
+            line-height: 68px;
+            /* border-bottom: 1px solid #ff4500; */ }
+.two ul li a{ font-weight: bold;
+	          font-size: 14px;
+	          color: #000;
+              list-style: none;
+              text-decoration: none;}
+.two ul .yi{ 
+          border-bottom: 2px solid #ff4500;}
+.two ul li .yia{ color: #ff4500;}
+
+.there{ width: 945px;
+        height: 1700px;
+        margin: 0 auto;}
+.four{ width: 945px;
+	   height: 220px;
+       margin: 0 auto;}
+.five{ width: 186px;
+	   height: 220px;
+       float: left;
+       margin-right: 12px;
+       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);}
+.five span{ color: red;}
+.six{ width: 747px;
+      height: 220px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      }
+.six ul{ width: 4735px;
+         position: relative;}
+.six ul li{ float: left;}
+.six span{ width: 30px;
+           height: 60px;
+           
+           position: absolute;
+           margin-top: -30px;
+           top: 50%;
+           cursor: pointer;
+           z-index: 1;}
+#left{ background: url(../images/sprite1.png) no-repeat -235px -1869px;
+	   left: 10px;}
+#right{ background: url(../images/sprite1.png) no-repeat -235px -1934px;
+	    right: 10px;}
+.five a{ background: url(../images/sprite.png) no-repeat -122px -1492px;
+         width: 144px;
+         height: 70px;
+         display: inline-block;
+         text-align: center;
+         margin-left: 22px;
+         margin-top: 68px;
+         font-weight: bold;
+         text-align: center;
+         text-decoration: none;
+         color: #fff;
+         line-height: 40px;}
+.five p{ line-height: 20px;
+         color: #8596a2;
+         font-size: 12px;
+         width: 156px;
+         text-align: center;
+         margin-left: 12px;} 
+         /* div seven */
+.seven{
+	   width: 945px;
+	   height: 340px;
+       margin: 10px auto;
+       background: #fff;
+       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);}
+
+.seven1{ height: 40px;
+         background: url(../images/new.png) no-repeat 0px 0px;
+         margin-bottom: 10px;}
+.seven .seven1 a{ float: right;
+    			  font-size: 12px;
+    			  color: #8596a2;
+    			  line-height: 40px;
+    			  padding-right: 20px;
+    			  text-decoration: none;
+    			}
+.seven .seven2{ float: left;
+	            height: 40px;
+    	 		width: 373px;
+    	 		height: 216px;
+    	 		padding: 0px 0px 0px 57px;
+    	 	    }
+.seven .seven2 h3{  background: url(../images/pptv.png) no-repeat 0px 4px;
+	                padding-left: 50px;
+    				height: 40px;
+    				margin-bottom: 30px;
+    				color: #425766;
+    				line-height: 40px;
+				}
+.seven .seven3{ width: 440px;
+	            height: 276px;
+	            float: left;
+                padding-left: 20px;
+                border-left: 1px solid #8596a2;
+               }
+.seven3 ul{ margin-left: 20px;}
+.seven3 li{ width: 210px;
+	        height: 320px;
+            float: left;
+            margin-top: 10px;
+            overflow: hidden;
+            background: url(../images/prize.png) no-repeat -21px -10px; }
+.seven3 ul li span{ font-size: 32px;
+               		font-weight: bold;
+               		color: #425766;}
+
+.seven3 ul li p{ font-size: 12px;
+				 color: #425766;}
+        /* div eight */
+.eight{
+	   width: 945px;
+	   height: 340px;
+       margin: 10px auto;
+       background: #fff;
+       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);}
+
+.eight1{ height: 40px;
+         margin-bottom: 10px;}
+.eight .eight1 a{ float: right;
+    			  font-size: 12px;
+    			  color: #8596a2;
+    			  line-height: 40px;
+    			  padding-right: 20px;
+    			  text-decoration: none;
+    			}
+.eight .eight2{ float: left;
+	            height: 40px;
+    	 		width: 373px;
+    	 		height: 216px;
+    	 		padding: 0px 0px 0px 57px;
+    	 	    }
+.eight .eight2 h3{  background: url(../images/iqy.png) no-repeat 0px 4px;
+	                padding-left: 50px;
+    				height: 40px;
+    				margin-bottom: 30px;
+    				color: #425766;
+    				line-height: 40px;
+				}
+.eight .eight2 img{ margin-left: 98px;}
+.eight .eight3{ width: 440px;
+	            height: 276px;
+	            float: left;
+                padding-left: 20px;
+                border-left: 1px solid #8596a2;
+               }
+.eight3 ul{ margin-left: 20px;}
+.eight3 li{ width: 210px;
+	        height: 320px;
+            float: left;
+            margin-top: 10px;
+            overflow: hidden;
+            background: url(../images/prize.png) no-repeat -21px -10px; }
+.eight3 ul li span{ font-size: 32px;
+               		font-weight: bold;
+               		color: #425766;}
+
+.eight3 ul li p{ font-size: 12px;
+				 color: #425766;}
+        /* div nine */
+.nine{
+	   width: 945px;
+	   height: 340px;
+       margin: 10px auto;
+       background: #fff;
+       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);}
+
+.nine1{ height: 40px;
+         margin-bottom: 10px;}
+.nine .nine1 a{ float: right;
+    			  font-size: 12px;
+    			  color: #8596a2;
+    			  line-height: 40px;
+    			  padding-right: 20px;
+    			  text-decoration: none;
+    			}
+.nine .nine2{ float: left;
+	            height: 40px;
+    	 		width: 373px;
+    	 		height: 216px;
+    	 		padding: 0px 0px 0px 57px;
+    	 	    }
+.nine .nine2 h3{  background: url(../images/bdc.png) no-repeat 0px 4px;
+	                padding-left: 50px;
+    				height: 40px;
+    				margin-bottom: 30px;
+    				color: #425766;
+    				line-height: 40px;
+				}
+.nine .nine3{ width: 440px;
+	            height: 276px;
+	            float: left;
+                padding-left: 20px;
+                border-left: 1px solid #8596a2;
+               }
+.nine3 ul{ margin-left: 20px;}
+.nine3 li{ width: 210px;
+	        height: 320px;
+            float: left;
+            margin-top: 10px;
+            overflow: hidden;
+            background: url(../images/prize.png) no-repeat -21px -10px; }
+.nine3 ul li span{ font-size: 32px;
+               		font-weight: bold;
+               		color: #425766;}
+
+.nine ul li p{ font-size: 12px;
+				 color: #425766;}
+        /* div ten */
+.ten{
+	   width: 945px;
+	   height: 340px;
+       margin: 10px auto;
+       background: #fff;
+       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);}
+
+.ten1{ height: 40px;
+         margin-bottom: 10px;}
+.ten .ten1 a{ float: right;
+    			  font-size: 12px;
+    			  color: #8596a2;
+    			  line-height: 40px;
+    			  padding-right: 20px;
+    			  text-decoration: none;
+    			}
+.ten .ten2{ float: left;
+	            height: 40px;
+    	 		width: 373px;
+    	 		height: 216px;
+    	 		padding: 0px 0px 0px 57px;
+    	 	    }
+.ten .ten2 h3{  background: url(../images/txt.png) no-repeat 0px 4px;
+	                padding-left: 50px;
+    				height: 40px;
+    				margin-bottom: 30px;
+    				color: #425766;
+    				line-height: 40px;
+				}
+.ten .ten3{ width: 440px;
+	            height: 276px;
+	            float: left;
+                padding-left: 20px;
+                border-left: 1px solid #8596a2;
+               }
+.ten3 ul{ margin-left: 20px;}
+.ten3 li{ width: 210px;
+	        height: 320px;
+            float: left;
+            margin-top: 10px;
+            overflow: hidden;
+            background: url(../images/prize.png) no-repeat -21px -10px; }
+.ten3 ul li span{ font-size: 32px;
+               		font-weight: bold;
+               		color: #425766;}
+
+.ten ul li p{ font-size: 12px;
+				 color: #425766;}
+
+
+
+
+
+
+
+

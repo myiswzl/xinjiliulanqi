@@ -1,0 +1,278 @@
+/*
+* @Author: Shinelon
+* @Date:   2017-04-17 19:34:56
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2017-06-12 18:27:36
+*/
+*{ margin: 0;
+   padding: 0;
+   list-style: none;}
+   body{ background: url(../images/bg_all.png) no-repeat -518px 0px;}
+   h1{ text-align: center;
+       margin-top: 160px;}
+  .one{ width: 1520px;
+        margin-top: 40px;
+       }
+  .two{ width: 10px;
+        height: 10px;
+        border: 9px solid #1cadf0;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        position: relative;}
+.two a{ width: 150px;
+        height: 20px;
+        text-decoration: none;
+        color: #000;
+        position: absolute;
+        left: 38px;
+        bottom: -2px;}
+.there{ width: 640px;
+  	    height: 4700px;
+  	    background-color: #fff;
+  	    border-left: 4px solid #1cadf0;
+  	    display: block;
+  	    margin-left: 760px;
+  	    position: relative;
+}
+.four,.five a{ color: #fff;
+               font-size: 12px;
+}
+.four{ display: inline-block; 
+   	   width: 390px;
+       height: 220px;
+       background-color: #1cadf0;
+       position: absolute;
+       left: 792px;
+       top: 388px;}
+.four ul{ margin: 28px;}
+.four,.five ul h3{ color: #fff;}
+.four ul span{ display: block;
+	             height: 11px;
+               width: 390px; 
+	             color: #fff;
+               font-size: 12px;
+             }
+.five { width: 390px;
+        height: 240px;
+        position: absolute;
+        bottom: -110px;
+	      left: 344px;
+        background-color: #1cadf0;
+              }
+.five ul span{ display: block;
+	             height: 11px;
+               width: 390px; 
+	             color: #fff;
+               font-size: 12px;
+             }
+.five ul{ margin: 28px;
+          overflow: hidden;
+          }
+.tong1{ width: 390px;
+        height: 280px;
+        position: absolute;
+        bottom: -392px;
+	      left: 790px;
+        background-color: #e6e7eb;
+              }
+.tong1,.tong2 ul h3{ font-size: 12px;
+	                   color: #000;}
+.tong1,.tong2 a{ color: #000;
+                 font-size: 12px;
+                }
+.tong1 ul span{ display: block;
+	              height: 11px;
+                width: 390px; 
+	              color: #000;
+                font-size: 12px;
+             }
+.tong1 ul{ margin: 28px;
+           background-color: #e6e7eb;
+           }
+
+.tong2{ width: 390px;
+        height: 28px;
+        position: absolute;
+        bottom: -425px;
+	      left: 346px;
+        background-color: #e6e7eb;
+              }
+.tong2 ul span{ display: block;
+	              height: 11px;
+                width: 390px; 
+	              color: #000;
+                font-size: 12px;
+             }
+.tong2 ul{ padding: 28px;
+           background-color: #e6e7eb;}
+.six1{
+        position: absolute;
+        top:1380px;
+        left: 790px;
+}
+.seven1{
+        position: absolute;
+        top: 1660px;
+        left: 346px;
+}
+.six2{
+        position: absolute;
+        top:1964px;
+        left: 790px;
+}
+.seven2{
+        position: absolute;
+        top: 2243px;
+        left: 346px;
+}
+.six3{
+        position: absolute;
+        top:2631px;
+        left: 790px;
+}
+.seven3{
+        position: absolute;
+        top: 2910px;
+        left: 346px;
+}
+.six4{
+        position: absolute;
+        top:3235px;
+        left: 790px;
+}
+.seven4{
+        position: absolute;
+        top: 3514px;
+        left: 346px;
+}
+.six5{
+        position: absolute;
+        top:3870px;
+        left: 790px;
+}
+.seven5{
+        position: absolute;
+        top: 4151px;
+        left: 346px;
+}
+.six6{
+        position: absolute;
+        top:4518px;
+        left: 790px;
+}
+.seven6{
+        position: absolute;
+        top: 4700px;
+        left: 346px;
+}
+.six7{
+        position: absolute;
+        top:4821px;
+        left: 790px;
+}
+.zuo21{
+    position: absolute;
+    left: -54px;
+    top: 280px;
+}
+.you21{
+    position: absolute;
+    left: 434px;
+    top: -280px;
+}
+.zuo22{
+    position: absolute;
+    left: -54px;
+    top: 182px;
+}
+.you22{
+    position: absolute;
+    left: 434px;
+    top: -182px;
+}
+.you23{
+    position: absolute;
+    left: -10px;
+    top: 0px;
+}
+.there .you1{ position: absolute;
+            left: 18px;
+            top: 80px;}
+
+.there .you2{ position: absolute;
+            left: 16px;
+            top: 546px;}
+.one .zuo1{ position: absolute;
+           left: 734px;
+           top: 612px;
+            }
+.one .zuo2{ position: absolute;
+           left: 736px;
+           top: 1138px;
+            }
+.bjtb{ width: 15px;
+       height: 15px;
+       background: url("../images/version_bg.png") no-repeat -316px -317px;
+       z-index: 1;}
+
+.you{ position: absolute;
+      top: -6px;
+      left: -36px;}
+.zuo{ position: absolute;
+      top: -6px;
+      right: -36px;}
+.you11{ position: absolute;
+      top: -6px;
+      left: -36px;}
+.zuo11{ position: absolute;
+      top: -6px;
+      right: -36px;}
+.ten{
+  margin-bottom: 150px;
+}
+.ten span:nth-of-type(1){
+    margin-left: 746px;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background: url(../images/version_bg.png) no-repeat -298px -282px;
+}
+.ten span:nth-of-type(2){
+    margin-left:746px;
+    width: auto;
+    padding-left: 45px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+}
+/*   链接栏  */
+.eight{ width: 1520px;
+	    height: 60px;
+	    z-index: 1;
+        background: rgba(0,0,0,0.5);
+        position: fixed;
+        bottom: 0px;
+        }
+.eight ul{ width: 1000px;
+           height: 60px;
+           margin: 0 auto;}
+.eight ul li{ width: 200px;
+              height: 60px;
+              float: left;
+              }
+.eight ul li a{ display: block;
+	            text-align: center;
+                line-height: 60px;
+                color: #fff;
+                text-decoration: none;
+                font-size: 14px;}
+.eight .yi:hover{ background-color: #228bd6;}
+.eight .er:hover{ background-color: #c33000;}
+.eight .san:hover{ background-color: #3aa624;}
+.eight .si:hover{ background-color: #c145cc;}
+.eight .wu:hover{ background-color: #f2ca00;}          
+
+
+

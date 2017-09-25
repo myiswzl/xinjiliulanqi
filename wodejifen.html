@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="css/wodejifen.css">
+         <script src="js/jquery-1.11.1.js"></script>
+         <script>
+         $( function(){
+         	var timer;
+         	var num=0;
+         	function go(){
+         		clearInterval(timer);
+         		timer=setInterval(function(){
+         
+                  num++;
+                  if(num>4){num=1;}
+                  /*动画滑动*/
+                 $('.six ul').animate({'left':-747*num+'px'},500);
+                 /*$('.six ul').css('left',-747*num+'px');*/	
+                  
+         	},1000)
+
+         	}
+         	go();	
+         	/*鼠标放入事件*/
+         	$('.six').hover(function() {
+         		clearInterval(timer);
+         	}, function() {
+         		go();
+         	});
+         	/*点击换图*/
+           $('#left').click(function(event) {
+           	   num++;
+           	   if(num>4){num=4};
+           	   $('.six ul').animate({'left':-747*num+'px'},500);     
+           });
+
+          $('#right').click(function(event) {
+           	   num--;
+           	   if(num<0){num=0};
+           	   $('.six ul').animate({'left':-747*num+'px'},500);     
+           });
+           /*TAB栏*/
+           
+           $('.eight1 ul li').click(function(event) {
+           	var index=$(this).index();
+           	    $(this).css({'font-weight':'bold','color':'#7aa3e4','border-bottom':'2px solid #7aa3e4'});
+           	    $(this).siblings('.eight1 ul li').css({'font-weight':'400','color':'#000','border-bottom':'none'});
+           });         
+      })
+         	
+         </script>
+
+    </head>
+
+    <body>
+    <div class="one">
+    	<div class="two">
+    	    <h1><a target="_blank" href="index.html"><img src="images/alogo2.png" alt="" width="100%"></a></h1>
+    		<ul>
+    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/qianxun/jifenshangcheng1.html">兑换特权</a></li>
+    			<li class="er"><a class="era" href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/qianxun/wodejifen.html">我的积分</a></li>
+    			<li><a href="file:///E:/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/%E4%BD%9C%E5%93%81/qianxun/jifenguize.html">积分规则</a></li>
+    		</ul>
+        </div>
+    </div>
+
+    <div class="there">
+    	<div class="four">
+    		<div class="five">
+    		<a href="">签到抽奖</a>
+    		<p>已连续签到<span>0</span>天</p>
+    		</div>
+    		<div class="six">
+    		<span id="left"></span>
+    		<span id="right"></span>
+    			<ul>
+    				<li><img src="images/banner01.png" alt=""></li>
+    				<li><img src="images/banner02.png" alt=""></li>
+    				<li><img src="images/banner03.jpg" alt=""></li>
+    				<li><img src="images/banner04.jpg" alt=""></li>
+    				<li><img src="images/banner01.png" alt=""></li>
+    			</ul>
+    		</div>
+    	</div>
+    	<div class="seven">
+            <div class="seven1">
+            	<span></span>
+            	<p>昨日获得积分：</p>
+            	<div class="seven11">
+            	    <img width="40px" class="yinying" src="images/shadow.png" alt="">
+            		<img src="images/one.png" alt="">
+            		<img src="images/four.png" alt="">
+
+            	</div>
+            </div>
+            <ul>
+            	<li>
+            		<p><span>0</span>分</p>
+            		<div >5分/小时<br>昨日登录增长</div>
+            		<a></a>
+            	</li>
+            	<li>
+            		<p><span>0</span>分</p>
+            		<div >3分/小时<br>昨日搜索增长</div>
+            		<a></a>
+            	</li>
+            	<li>
+            		<p><span>0</span>分</p>
+            		<div >1分/小时<br>昨日网页访问增长</div>
+            		<a></a>
+            	</li>
+            </ul>
+        </div>
+        
+        <div class="eight">
+        	<div class="eight1">
+        		<span></span>
+        		<p>近10天获得积分详情：</p>
+        		<ul>
+        			<li class="aaa">在线</li>
+        			<li>搜索</li>
+        			<li>网页访问</li>
+        		</ul>
+        	</div>
+        	<div class="eight2"></div>
+        	<div class="eight22">
+        			<ul>
+        				<li><span></span>11月14日</li>
+        				<li><span></span>15日</li>
+        				<li><span></span>16日</li>
+        				<li><span></span>17日</li>
+        				<li><span></span>18日</li>
+        				<li><span></span>19日</li>
+        				<li><span></span>20日</li>
+        				<li><span></span>21日</li>
+        				<li><span></span>22日</li>
+        				<li><span></span>23日</li>
+        			</ul>        	
+        	<div>
+        </div>
+    </div>
+    </body>
+
+
+
+</html>

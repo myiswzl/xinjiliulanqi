@@ -1,0 +1,232 @@
+/*
+* @Author: Shinelon
+* @Date:   2017-04-19 09:15:16
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2017-09-23 06:24:07
+*/
+*{ margin: 0;
+   padding: 0;
+   list-style: none;}
+   body{ background: #f6f8fa;}
+.one{ height: 70px;
+	  width: 100%;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);	  
+      margin-bottom: 10px;} 
+.two{ width: 945px;
+      height: 70px;
+      margin: 0 auto;
+      }
+.two ul{ height: 70px;
+         width: 600px;
+         float: left;}
+.two h1{  display: inline-block; 
+      width: 280px;
+      height: 50px;
+      float: left;
+      /* background: url(../images/alogo2.png) no-repeat; */
+}
+.two ul li{ width: 120px;
+            height: 68px;
+            float: left;
+            text-align: center;
+            line-height: 68px;
+            }
+           
+.two ul li a{ font-weight: bold;
+	          font-size: 14px;
+	          color: #000;
+              list-style: none;
+              text-decoration: none;}
+.two ul .er{ 
+             border-bottom: 2px solid #ff4500;}
+.two ul li .era{ color: #ff5f19;}
+
+.there{ width: 945px;
+        height: 1700px;
+        margin: 0 auto;}
+.four{ width: 945px;
+	   height: 220px;
+       margin: 0 auto;}
+.five{ width: 186px;
+	   height: 220px;
+       float: left;
+       margin-right: 12px;
+       box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);}
+.five span{ color: red;}
+.six{ width: 747px;
+      height: 220px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      }
+.six ul{ width: 4735px;
+         position: relative;}
+.six ul li{ float: left;}
+.six span{ width: 30px;
+           height: 60px;
+           position: absolute;
+           margin-top: -30px;
+           top: 50%;
+           cursor: pointer;
+           z-index: 1;}
+#left{ background: url(../images/sprite1.png) no-repeat -235px -1869px;
+	   left: 10px;}
+#right{ background: url(../images/sprite1.png) no-repeat -235px -1934px;
+	    right: 10px;}
+.five a{ background: url(../images/sprite.png) no-repeat -122px -1566px;
+         width: 144px;
+         height: 70px;
+         display: inline-block;
+         text-align: center;
+         margin-left: 22px;
+         margin-top: 68px;
+         font-weight: bold;
+         text-align: center;
+         text-decoration: none;
+         color: #fff;
+         line-height: 40px;}
+.five p{ line-height: 20px;
+         color: #8596a2;
+         font-size: 12px;
+         width: 156px;
+         text-align: center;
+         margin-left: 12px;} 
+
+.seven{
+       width: 945px;
+       height: 340px;
+       margin: 10px auto;
+       background-color: #fff;}
+.seven .seven1{ height: 40px;
+                padding: 30px 30px 10px 30px;
+                position: relative;}
+.seven .seven1 span{
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url(../images/sprite1.png) no-repeat -254px -2117px;
+} 
+.seven .seven1 p{ width: 112px;
+                  height: 20px;
+                  display: inline-block;
+                  }
+.seven11{ display: inline-block;
+          width: 40px;
+          height: 20px;
+          margin-left: 16px;
+        }
+.seven11 .yinying{ position: absolute;
+                   top: 53px;
+                   left: 178px;
+                   }
+.seven ul{ width: 945px;
+           height: 230px;
+           padding: 0 100px;}
+.seven ul li{ width: 200px;
+              height: 200px;
+              background-color: #666;
+              display: block;
+              float: left;
+              margin-right: 80px;
+              background: url(../images/circle.png) no-repeat 1px 1px;
+              position: relative;}
+.seven ul li p span{ font-size: 40px;
+                     font-weight: bold;
+                     }
+.seven ul li p{ font-size: 22px;
+                text-align: center;
+                line-height: 180px;}
+.seven ul li div{ position: absolute;
+                  bottom: 20px;
+                  width: 200px;
+                  text-align: center;
+                  font-size: 12px;
+                  color: #8596a2;}
+.seven ul li a{ display: inline-block;
+                position: absolute;
+                left: 184px;
+                bottom: 178px;
+                width: 20px;
+                height: 20px;
+                background: url(../images/sprite1.png) no-repeat -250px -2136px;
+}
+
+.eight{
+       width: 945px;
+       height: 340px;
+       margin: 10px auto;
+       background-color: #fff;
+      text-transform: bold; }
+.eight .eight1{ width: 800px;
+                height: 40px;
+                padding: 30px 30px 10px 30px;
+             }
+.eight .eight1 span{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url(../images/sprite1.png) no-repeat -254px -2117px;
+        float: left;} 
+.eight .eight1 p{ width: 200px;
+                  display: inline-block;
+                  float: left;}
+.eight1 ul{ float: left;}
+.eight1 ul li{ display: inline-block;
+              width: 120px;
+              height: 30px;
+              text-align: center;
+              padding-bottom: 10px;
+              cursor: pointer; /* 增加小手 */ }
+.eight1 ul .aaa{ font-weight: bold;
+                 color: #7aa3e4;
+                 border-bottom: 2px solid #7aa3e4;}              
+.eight2{ width: 945px;
+         height: 140px;
+         }
+.eight22{ width: 800px;
+         height: 60px;
+         margin: 0 72px;
+         border-top: 1px solid #e1e4e8;}
+.eight22 ul li{ width: 53px;
+              height: 40px;
+              background: #666;
+              float: left;
+              font-size: 12px;
+              margin-left: 22px;
+              text-indent: center;
+              line-height: 38px;
+              background: #fff;
+              position: relative;
+              color: #8596a2;}
+.eight22 ul li span{ display: block;
+                    width: 4px;
+                    height: 4px;
+                    background: #7aa3e4;
+                    border-radius: 10px 10px 0px 0px;
+                    position: absolute;
+                    left: 11px;
+                    top: -4px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

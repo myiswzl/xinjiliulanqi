@@ -1,0 +1,79 @@
+/*
+* @Author: Shinelon
+* @Date:   2017-04-17 09:34:16
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2017-06-12 13:57:58
+*/
+*{ margin: 0;
+   padding: 0;
+   list-style: none;
+   }
+   body{ background: url('../images/bg_all.png') no-repeat -518px 0px;}
+
+
+.one{ margin-top: 160px;
+	  text-align: center;
+      }
+.two{ height: 560px;
+      }
+h1{     
+	    font-weight: 200;
+        text-align: center;
+        font-size: 38px;
+        line-height: 130px;}
+.two ul{   width: 980px;
+	       height: 420px;
+           margin: 0 auto;
+           }
+.two .wenzi{ width: 540px;
+            height: 420px;
+            float: left;
+            }
+.two .tupian{ width: 382px;
+            height: 420px;
+            float: left;
+            }
+.two ul li span{ font-size: 18px;
+                 }
+.two ul li p{ font-size: 14px;
+	          color: #808080;
+            margin-bottom: 32px;
+            margin-top: 8px;
+          }
+.tupian img{ margin: 0 20px;}
+.tupian p span{
+            display: inline-block;
+            width: 190px;
+            text-align: center;
+            float: left;
+            font-size: 16px;
+            color: #a5a5a5;
+            position: relative;
+            top: -10px;
+}
+ /* 链接栏 */
+.there{ width: 1520px;
+	    height: 60px;
+	    z-index: 1;
+        background: rgba(0,0,0,0.5);
+        position: fixed;
+        bottom: 0px;
+        }
+.there ul{ width: 1000px;
+           height: 60px;
+           margin: 0 auto;}
+.there ul li{ width: 200px;
+              height: 60px;
+              float: left;
+              }
+.there ul li a{ display: block;
+	            text-align: center;
+                line-height: 60px;
+                color: #fff;
+                text-decoration: none;
+                font-size: 14px;}
+.there .yi:hover{ background-color: #228bd6;}
+.there .er:hover{ background-color: #c33000;}
+.there .san:hover{ background-color: #3aa624;}
+.there .si:hover{ background-color: #c145cc;}
+.there .wu:hover{ background-color: #f2ca00;}          

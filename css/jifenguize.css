@@ -1,0 +1,86 @@
+/*
+* @Author: Shinelon
+* @Date:   2017-04-22 21:48:37
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2017-09-23 06:24:17
+*/
+*{ margin: 0;
+   padding: 0;
+   list-style: none;}
+.one{ height: 70px;
+	  width: 100%;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);	  
+      margin-bottom: 10px;} 
+.two{ width: 945px;
+      height: 70px;
+      margin: 0 auto;
+      }
+.two ul{ height: 70px;
+         width: 600px;
+         float: left;}
+.two h1{  display: inline-block; 
+      width: 280px;
+      height: 50px;
+      float: left;
+      /* background: url(../images/alogo2.png) no-repeat; */
+}
+.two ul li{ width: 120px;
+            height: 68px;
+            float: left;
+            text-align: center;
+            line-height: 68px;
+            /* border-bottom: 1px solid #ff4500; */ }
+.two ul li a{ font-weight: bold;
+	          font-size: 14px;
+	          color: #000;
+              list-style: none;
+              text-decoration: none;}
+.two ul .yi{ 
+          border-bottom: 2px solid #ff4500;}
+.two ul li .yia{ color: #ff4500;}
+
+.there{ width: 945px;
+      height: 300px;
+      margin: 0 auto;
+      }
+.there ul li{ margin: 50px 0px;}      
+.there ul li h4{ margin-bottom: 8px;
+                 }
+.there ul li p{ font-size: 14px;}
+
+.four{  width: 945px;
+	  height: 650px;
+      margin: 0 auto;
+      }
+
+table {
+	margin-top: 6px;
+	border: solid 1px #d6dbe2;
+	background: #eff3f6;
+	border-bottom: 0;
+	margin-bottom: 40px;
+}
+table thead th {
+	font-weight: 700;
+	background: #e4e7eb;
+	padding: 17px 0;
+	text-align: center;
+	border-bottom: solid 1px #d6dbe2;
+}
+table td {
+	font-size: 14px;
+	padding: 17px 0;
+	text-align: center;
+	border-bottom: solid 1px #d6dbe2;
+}
+.four h4{ margin-bottom: 10px;}
+.four p{ color: #8596a2;
+         font-size: 12px;}
+
+
+
+
+
+
+
+
